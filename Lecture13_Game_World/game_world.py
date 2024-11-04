@@ -1,8 +1,9 @@
 #world = [] # 단일 계층 구조
 
 # world [0]에는 백그라운드 객체들.. 즉 맨 아래에 그려야 할 객체들
-# world [1]에는 포어그라운드 객체들... 위에 그려야 할 객체들
-world = [[],[]]
+# world [1]에는  중간 객체들... 중간에 그려야 할 객체들
+# world [2]에는 포어그라운드 객체.. 위에 그려야 할 객체들
+world = [[],[],[]]
 
 def add_object(o, depth):
     world[depth].append(o)
